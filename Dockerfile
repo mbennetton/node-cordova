@@ -3,11 +3,11 @@ FROM benatron/android-gradle
 ENV NODE_VERSION=8.7.0 \
     NPM_VERSION=5.4.2 \
     IONIC_VERSION=4.3.1 \
-    CORDOVA_VERSION=8.1.2 \
+    CORDOVA_VERSION=9 \
     GULP_VERSION=3.9.1 \
     BOWER_VERSION=1.8.4
-    
-RUN apt-get update && apt-get install -y \ 
+
+RUN apt-get update && apt-get install -y \
     git \
     wget \
     curl \
